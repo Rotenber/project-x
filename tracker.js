@@ -9,7 +9,7 @@
     };
 
     try {
-        const response = await fetch("https://your-app.up.railway.app/collect", { // Замените на URL вашего Flask-сервера
+        const response = await fetch("https://web-production-1e79.up.railway.app/collect", { // Замените на URL вашего Flask-сервера
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(data)
